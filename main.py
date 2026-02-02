@@ -1,9 +1,8 @@
-name = "Abinaya"
-age = 19
-course = "B.com"
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
 
-print("Name:", name)
-print("Age:", age)
-print("Course:", course)
+if age >= 18:
+     print("Hello",name + "! You are an adult.")
+else:
+     print("Hello", name + "! You are a minor.")
 
-print("I am learning python step by step")
